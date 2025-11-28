@@ -222,6 +222,35 @@ The `predict_hvac_status()` function builds a DataFrame in the correct feature o
 interactive_hvac_prediction()
 ```
 
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone <repo-url>
+cd hvac-anomaly-detection
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+### 4. Run All Cells
+
+Execute the notebook cells in order to load data, train the model, and explore results.
+
+---
+
 ## How to Try the Model (Interactive Anomaly Tester)
 
 This project includes an **interactive console tool** that allows anyone — even without HVAC knowledge — to manually enter HVAC readings and see whether the model predicts:
@@ -241,9 +270,9 @@ In your terminal:
 jupyter notebook
 ```
 
-#### 2. Click to STEP 2 ML with Python Folder → Notebooks → hvac_model.ipynb
+Open the main notebook (e.g., `hvac_model.ipynb`).
 
-#### 3. Run All Cells
+#### 2. Run All Cells
 
 In the Jupyter menu:
 
@@ -253,7 +282,7 @@ Kernel → Restart & Run All
 
 This loads the data, trains the model, computes normal ranges, and initializes the interactive tool.
 
-#### 4. Scroll to the "Interactive Tester" Section
+#### 3. Scroll to the "Interactive Tester" Section
 
 You will see this function defined:
 
@@ -261,7 +290,7 @@ You will see this function defined:
 interactive_hvac_prediction()
 ```
 
-#### 5. Run the Cell Containing the Interactive Function
+#### 4. Run the Cell Containing the Interactive Function
 
 You will then see input prompts like:
 
@@ -277,7 +306,7 @@ Each input line shows:
 
 This helps non-HVAC users pick reasonable values.
 
-#### 6. Enter Values to Test the System
+#### 5. Enter Values to Test the System
 
 You can perform three types of experiments:
 
@@ -321,7 +350,7 @@ Anomaly probability: 0.98
 
 The model will confidently classify very abnormal combinations as anomalies.
 
-#### 7. View the Model's Decision
+#### 6. View the Model's Decision
 
 After entering all fields, you will see:
 
@@ -342,9 +371,10 @@ Anomaly probability: 0.xxx
 
 The interactive tester transforms this ML model into a hands-on demo tool that:
 
+- Recruiters can try
 - Data scientists can experiment with
 - HVAC technicians can validate with real values
-- Hiring managers or recruiters can quickly understand the project
+- Hiring managers can quickly understand the project
 
 It demonstrates not just machine learning, but also usability and accessibility—key strengths of this project.
 
