@@ -241,9 +241,9 @@ In your terminal:
 jupyter notebook
 ```
 
-Open the main notebook (e.g., `hvac_model.ipynb`).
+#### 2. Click to STEP 2 ML with Python Folder → Notebooks → hvac_model.ipynb
 
-#### 2. Run All Cells
+#### 3. Run All Cells
 
 In the Jupyter menu:
 
@@ -253,7 +253,7 @@ Kernel → Restart & Run All
 
 This loads the data, trains the model, computes normal ranges, and initializes the interactive tool.
 
-#### 3. Scroll to the "Interactive Tester" Section
+#### 4. Scroll to the "Interactive Tester" Section
 
 You will see this function defined:
 
@@ -261,7 +261,7 @@ You will see this function defined:
 interactive_hvac_prediction()
 ```
 
-#### 4. Run the Cell Containing the Interactive Function
+#### 5. Run the Cell Containing the Interactive Function
 
 You will then see input prompts like:
 
@@ -277,7 +277,7 @@ Each input line shows:
 
 This helps non-HVAC users pick reasonable values.
 
-#### 5. Enter Values to Test the System
+#### 6. Enter Values to Test the System
 
 You can perform three types of experiments:
 
@@ -321,7 +321,7 @@ Anomaly probability: 0.98
 
 The model will confidently classify very abnormal combinations as anomalies.
 
-#### 6. View the Model's Decision
+#### 7. View the Model's Decision
 
 After entering all fields, you will see:
 
