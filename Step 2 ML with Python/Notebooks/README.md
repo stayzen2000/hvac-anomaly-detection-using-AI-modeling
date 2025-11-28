@@ -229,8 +229,8 @@ interactive_hvac_prediction()
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo-url>
-cd hvac-anomaly-detection
+git clone https://github.com/stayzen2000/hvac-anomaly-detection-using-AI-modeling.git
+cd cd hvac-anomaly-detection-using-AI-modeling
 ```
 
 ### 2. Install Dependencies
